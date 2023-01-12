@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nft{
+    background-color: #200E32;
+    width: 100%;
+}
+
+.sames{
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+/* .li{
+    width: 80%;
+    margin: 0 auto;
+} */
+
+.lore{
+   font-size: 20px;
+    color: white;
+}
+
+
+.arts{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.n_art{
+    display: none;
+}
+
+.load{
+    width: 10%;
+    margin: 0 auto;
+}
+
+.load button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    padding: 10px 30px;
+    box-shadow: -3px 2px 0px #F09A58;
+    margin: 10px;
+    text-align: center;
+}
+
+@media screen and (width > 866px){
+    .arts{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .art1{
+        display: flex;
+
+    }
+    .art1 img{
+        width: 200px;
+        padding: 10px;
+    }
+    .n_art{
+        display: flex;
+    }
+    
+    .sames{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #bt{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .load button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        padding: 10px 30px;
+        box-shadow: -3px 2px 0px #F09A58;
+        margin: 10px;
+        text-align: center;
+    }
+
+}
+
+@media screen and (width > 1256px){
+    .art1 img{
+        width: 300px;
+    }
+
+    .arts{
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+}
