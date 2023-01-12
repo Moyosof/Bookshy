@@ -12,6 +12,7 @@ const AppHero = () => {
         </Route>
         </Routes>
         </BrowserRouter>
+        
     </div>
   )
 }
